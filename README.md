@@ -24,4 +24,3 @@ https://user-images.githubusercontent.com/97987865/201417254-5b178f84-bd2b-4034-
 
 
 
-<a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Icongeek26 - Flaticon</a>
