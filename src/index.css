@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+ body {
+    background-color: rgb(49, 49, 70);
+    font-size: 20px;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ h1 {
+    text-align: center;
+    color: #fff;
+ }
+
+ .game-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin: auto;
+  }
+  
+  .square {
+    background: rgb(7, 7, 7);
+    border: 3px solid rgb(49, 49, 70);
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    color: #fff;
+  }
+  
+  .game-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .move-info {
+    padding-top: 10px;
+  }
+
+.reset-game {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    transition-duration: 0.4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.reset-game:hover {
+    background-color: rgb(106, 106, 106);
+    color: #fff;
 }
